@@ -17,4 +17,5 @@
     <img src=https://www.productplan.com/uploads/bubble-sort-1024x683-2.png>
  <h1>Quick Sort</h1>
     <p>Quick Sort é um algoritmo eficiente de ordenação. O algoritmo baseia a ordenação em sucessivas execuções de particionamento, uma rotina que escolhe um pivot e o posiciona no array de uma maneira em que os elementos menores ou iguais ao pivot estão à sua esquerda e os maiores estão à sua direita.<p>
+    <img src=https://cdn.programiz.com/cdn/farfuture/tMmdAbX5gev9K20XI1kzQ3n932vSjnN1MszZouHV7Yc/mtime:1617189469/sites/tutorial2program/files/quick-sort-partition-fourth-step.png>
     <h1>Grupo</h1>
