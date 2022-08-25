@@ -2,32 +2,66 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main()
+void quicksort(int number[25],int primeiro,int ultimo){
 
-{
-    int i;
-    int num2[1000];
-    int soma=0;
-    int media;
+int i, j, pivot, temp;
+
+if(primeiro<ultimo){
+
+pivot=primeiro;
+
+i=primeiro;
+
+j=ultimo;
+
+while(i<j){
+
+while(number[i]<=number[pivot]&&i<ultimo)
+
+i++;
+
+while(number[j]>number[pivot])
+
+j--;
+
+if(i<j){
+
+temp=number[i];
+
+number[i]=number[j];
+
+number[j]=temp;
+
+}
+
+}
+
+temp=number[pivot];
+
+number[pivot]=number[j];
+
+number[j]=temp;
+
+quicksort(number,primeiro,j-1);
+
+quicksort(number,j+1,ultimo);
+
+}
+
+}
 
 
-    srand(time(NULL));
 
-    for(i=0;i<1000;i++)
-        num2[i]=(rand()%1000);
+quicksort(num2,0,1000 -1);
 
-    printf("\n\n");
+printf("Os numeros ordenados: ");
 
-    for(i=0;i<1000;i++)
-         printf("\n Numero %d: %d \n",i,num2[i]);
-    printf("\n\n");
-    for(i=0;i<1000;i++)
-        soma= num2[i]+soma;
+for(i=0;i<1000;i++)return 0;
 
-    printf("\n%d\n",soma);
 
-    media = soma/1000;
+printf(" \n%d\n",num2[i]);
 
-    printf("A media dos valores dentro do vetor eh: %d \n",media);
-    return 0;
+printf("\nA media dos valores dentro do vetor eh: %d \n",media);
+
+
 }
