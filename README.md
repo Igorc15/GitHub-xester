@@ -1,9 +1,9 @@
 <h1>Vetor de 1000 entradas</h1>
 <p<align*centerp>
-    <a href="https://github.com/Igorc15/GitHub-v1.0/blob/main/README.md#projeto">PROJETO</a> ////
-    <a href=https://github.com/Igorc15/GitHub-v1.0/blob/main/README.md#bublle-sort>Bublle Sort</a>////
-    <a href="https://github.com/Igorc15/GitHub-v1.0/blob/main/README.md#quick-sort">Quick Sort</a>////
-     <a href="https://github.com/Igorc15/GitHub-v1.0/blob/main/README.md#equipe">Equipe</a>////
+    <a href="https://github.com/Igorc15/GitHub-v1.0#-projeto">PROJETO</a> ////
+    <a href="https://github.com/Igorc15/GitHub-v1.0#-bublle-sort">Bublle Sort</a>////
+    <a href="https://github.com/Igorc15/GitHub-v1.0#-quick-sort">Quick Sort</a>////
+     <a href="https://github.com/Igorc15/GitHub-v1.0#-equipe">Equipe</a>////
 
    <h1>◉ PROJETO</h1>
    <p>Vetor que gera 1000 números aleatórios ordena com o algoritmo Bubble Sort e Quick Sort,e fornece:<p>
