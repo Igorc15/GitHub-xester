@@ -1,3 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 void imprime_vetor()
 {
     int i,num1[1000];
