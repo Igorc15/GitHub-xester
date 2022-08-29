@@ -1,3 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void imprime_maior()
+{
+vetores();
+int i,num1[1000],maior=0;
+
+for (i=0;i<1000;i++){
+    if (num1[i]>maior)
+        {
+        maior=num1[i];
+        }
+        
+printf("\nO numero maior eh: %d\n",maior);
+
 void mediana()
 {
     float median=0;
@@ -7,4 +24,4 @@ void mediana()
     median=num1[498]+num1[499]/2;
     printf("\nA mediana eh: %f\n",median);
 
-}
+
