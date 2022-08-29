@@ -1,9 +1,10 @@
-void imprime_vetor()
+void mediana()
 {
-    int i,num1[1000];
+    float median=0;
+    int num1[1000];
     vetores();
 
-    for(i=0;i<1000;i++)
-         printf("\n Numero %d: %d \n",i,num1[i]);
-    printf("\n\n");
+    median=num1[498]+num1[499]/2;
+    printf("\nA mediana eh: %f\n",median);
+
 }
