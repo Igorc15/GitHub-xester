@@ -1,46 +1,26 @@
-void quicksort(int number[25],int primeiro,int ultimo){
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void imprime_maior()
+{
 vetores();
-int i, j, pivot, temp;
+int i,num1[1000],maior=0;
 
-if(primeiro<ultimo){
+for (i=0;i<1000;i++){
+    if (num1[i]>maior)
+        {
+        maior=num1[i];
+        }
+        
+printf("\nO numero maior eh: %d\n",maior);
 
-pivot=primeiro;
+void mediana()
+{
+    float median=0;
+    int num1[1000];
+    vetores();
 
-i=primeiro;
+    median=num1[498]+num1[499]/2;
+    printf("\nA mediana eh: %f\n",median);
 
-j=ultimo;
-
-while(i<j){
-
-while(number[i]<=number[pivot]&&i<ultimo)
-
-i++;
-
-while(number[j]>number[pivot])
-
-j--;
-
-if(i<j){
-
-temp=number[i];
-
-number[i]=number[j];
-
-number[j]=temp;
-
-}
-
-}
-
-temp=number[pivot];
-
-number[pivot]=number[j];
-
-number[j]=temp;
-
-quicksort(number,primeiro,j-1);
-
-quicksort(number,j+1,ultimo);
-
-}
-}
