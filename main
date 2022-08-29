@@ -1,17 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
-void vetores()
-{
-    int i,num1[1000];
-
-    srand(time(NULL));
-
-    for(i=0;i<1000;i++)
-        num1[i]=(rand()%1000);
-
-}
 void imprime_vetor()
 {
     int i,num1[1000];
